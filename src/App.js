@@ -1,15 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./component/Header";
+import Slider from './component/Slider';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-      </header>
+      <Header />
+      <Slider />
     </div>
   );
 }
 
 export default App;
+
+
+
